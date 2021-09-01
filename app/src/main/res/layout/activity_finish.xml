@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgpic"
+    android:background="@drawable/new_back"
     tools:context=".EndGameActivity">
 
     <LinearLayout
@@ -21,8 +21,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
+            android:backgroundTint="#80F8D65D"
             android:tag="5"
             android:text="@string/try_again"
+            android:textColor="#0E0E0E"
             app:cornerRadius="50sp" />
 
         <Button
@@ -31,8 +33,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
+            android:backgroundTint="#80F8D65D"
             android:tag="6"
             android:text="@string/quit_last"
+            android:textColor="#0E0E0E"
             app:cornerRadius="50sp" />
     </LinearLayout>
 
@@ -42,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="@string/you_can_try_again"
-        android:textColor="#F44336"
+        android:textColor="#80FFEB3B"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,9 +56,9 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="250dp"
         android:text="@string/you_lose"
-        android:textColor="#F44336"
+        android:textColor="#80FFEB3B"
         android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

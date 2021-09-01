@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/game_background"
+    android:background="@drawable/new_back"
     tools:context=".GameActivity">
 
     <LinearLayout
@@ -22,9 +22,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
+            android:backgroundTint="#80F8D65D"
             android:text="@string/back_to_menu"
             android:textAllCaps="false"
-            android:textColor="#FBFAFA"
+            android:textColor="#0E0E0E"
             app:cornerRadius="50dp" />
 
         <Button
@@ -33,9 +34,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
+            android:backgroundTint="#80F8D65D"
             android:text="@string/end_game"
             android:textAllCaps="false"
-            android:textColor="#FBFAFA"
+            android:textColor="#0E0E0E"
             app:cornerRadius="50dp" />
     </LinearLayout>
 
@@ -53,10 +55,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:backgroundTint="#80F8D65D"
+            android:tag="25"
             android:text="@string/bet_25"
             android:textAllCaps="false"
-            android:textColor="#FBFAFA"
-            android:tag="25"
+            android:textColor="#0E0E0E"
             app:cornerRadius="50dp" />
 
         <Button
@@ -64,10 +67,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:backgroundTint="#80F8D65D"
+            android:tag="50"
             android:text="@string/bet_50"
             android:textAllCaps="false"
-            android:textColor="#FBFAFA"
-            android:tag="50"
+            android:textColor="#0E0E0E"
             app:cornerRadius="50dp" />
 
         <Button
@@ -75,10 +79,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:backgroundTint="#80F8D65D"
+            android:tag="100"
             android:text="@string/bet_100"
             android:textAllCaps="false"
-            android:textColor="#FBFAFA"
-            android:tag="100"
+            android:textColor="#0E0E0E"
             app:cornerRadius="50dp" />
 
     </LinearLayout>
@@ -119,7 +124,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
         android:text="Choose your ball:"
-        android:textColor="#FF5722"
+        android:textColor="#80FFEB3B"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageViewGreen"
@@ -131,7 +136,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:textColor="#FF5722"
+        android:textColor="#80FFEB3B"
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -142,7 +147,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/your_points"
-        android:textColor="#FF5722"
+        android:textColor="#80FFEB3B"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
